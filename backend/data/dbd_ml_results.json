@@ -1,0 +1,440 @@
+{
+    "dbd_ml_results": [
+        {
+            "month": "Januari",
+            "year": 2024,
+            "total_cases": 6727,
+            "most_influential_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "secondary_factor": "Interaksi Hujan & Kepadatan",
+            "secondary_importance": 0.19439102829774155,
+            "tertiary_factor": "Curah Hujan",
+            "tertiary_importance": 0.09235165786503506,
+            "rainfall_mm": 80.62,
+            "population_density": 3930,
+            "prediction_accuracy": 0.7843690971494051
+        },
+        {
+            "month": "Februari",
+            "year": 2024,
+            "total_cases": 4701,
+            "most_influential_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "secondary_factor": "Interaksi Hujan & Kepadatan",
+            "secondary_importance": 0.19439102829774155,
+            "tertiary_factor": "Curah Hujan",
+            "tertiary_importance": 0.09235165786503506,
+            "rainfall_mm": 56.32,
+            "population_density": 3930,
+            "prediction_accuracy": 0.8184516889155256
+        },
+        {
+            "month": "Maret",
+            "year": 2024,
+            "total_cases": 5060,
+            "most_influential_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "secondary_factor": "Interaksi Hujan & Kepadatan",
+            "secondary_importance": 0.19439102829774155,
+            "tertiary_factor": "Curah Hujan",
+            "tertiary_importance": 0.09235165786503506,
+            "rainfall_mm": 60.67,
+            "population_density": 3930,
+            "prediction_accuracy": 0.8123138115188079
+        },
+        {
+            "month": "April",
+            "year": 2024,
+            "total_cases": 6070,
+            "most_influential_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "secondary_factor": "Interaksi Hujan & Kepadatan",
+            "secondary_importance": 0.19439102829774155,
+            "tertiary_factor": "Curah Hujan",
+            "tertiary_importance": 0.09235165786503506,
+            "rainfall_mm": 72.72,
+            "population_density": 3930,
+            "prediction_accuracy": 0.797715564013919
+        },
+        {
+            "month": "Mei",
+            "year": 2024,
+            "total_cases": 3115,
+            "most_influential_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "secondary_factor": "Interaksi Hujan & Kepadatan",
+            "secondary_importance": 0.19439102829774155,
+            "tertiary_factor": "Curah Hujan",
+            "tertiary_importance": 0.09235165786503506,
+            "rainfall_mm": 37.33,
+            "population_density": 3930,
+            "prediction_accuracy": 0.8091073470050671
+        },
+        {
+            "month": "Juni",
+            "year": 2024,
+            "total_cases": 9091,
+            "most_influential_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "secondary_factor": "Interaksi Hujan & Kepadatan",
+            "secondary_importance": 0.19439102829774155,
+            "tertiary_factor": "Curah Hujan",
+            "tertiary_importance": 0.09235165786503506,
+            "rainfall_mm": 108.95,
+            "population_density": 3930,
+            "prediction_accuracy": 0.8059651664932617
+        },
+        {
+            "month": "Juli",
+            "year": 2024,
+            "total_cases": 3111,
+            "most_influential_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "secondary_factor": "Interaksi Hujan & Kepadatan",
+            "secondary_importance": 0.19439102829774155,
+            "tertiary_factor": "Curah Hujan",
+            "tertiary_importance": 0.09235165786503506,
+            "rainfall_mm": 37.24,
+            "population_density": 3930,
+            "prediction_accuracy": 0.7802876568642723
+        },
+        {
+            "month": "Agustus",
+            "year": 2024,
+            "total_cases": 1541,
+            "most_influential_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "secondary_factor": "Interaksi Hujan & Kepadatan",
+            "secondary_importance": 0.19439102829774155,
+            "tertiary_factor": "Curah Hujan",
+            "tertiary_importance": 0.09235165786503506,
+            "rainfall_mm": 18.49,
+            "population_density": 3930,
+            "prediction_accuracy": 0.7837657795387167
+        },
+        {
+            "month": "September",
+            "year": 2024,
+            "total_cases": 5773,
+            "most_influential_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "secondary_factor": "Interaksi Hujan & Kepadatan",
+            "secondary_importance": 0.19439102829774155,
+            "tertiary_factor": "Curah Hujan",
+            "tertiary_importance": 0.09235165786503506,
+            "rainfall_mm": 69.17,
+            "population_density": 3930,
+            "prediction_accuracy": 0.795252396315856
+        },
+        {
+            "month": "Oktober",
+            "year": 2024,
+            "total_cases": 3989,
+            "most_influential_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "secondary_factor": "Interaksi Hujan & Kepadatan",
+            "secondary_importance": 0.19439102829774155,
+            "tertiary_factor": "Curah Hujan",
+            "tertiary_importance": 0.09235165786503506,
+            "rainfall_mm": 47.79,
+            "population_density": 3930,
+            "prediction_accuracy": 0.7988654823173194
+        },
+        {
+            "month": "November",
+            "year": 2024,
+            "total_cases": 6822,
+            "most_influential_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "secondary_factor": "Interaksi Hujan & Kepadatan",
+            "secondary_importance": 0.19439102829774155,
+            "tertiary_factor": "Curah Hujan",
+            "tertiary_importance": 0.09235165786503506,
+            "rainfall_mm": 81.77,
+            "population_density": 3930,
+            "prediction_accuracy": 0.7729624315305207
+        },
+        {
+            "month": "Desember",
+            "year": 2024,
+            "total_cases": 5430,
+            "most_influential_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "secondary_factor": "Interaksi Hujan & Kepadatan",
+            "secondary_importance": 0.19439102829774155,
+            "tertiary_factor": "Curah Hujan",
+            "tertiary_importance": 0.09235165786503506,
+            "rainfall_mm": 65.07,
+            "population_density": 3930,
+            "prediction_accuracy": 0.8009622299264848
+        }
+    ],
+    "model_info": {
+        "model_type": "Random Forest Regressor",
+        "features_used": [
+            "jumlah_curah_hujan",
+            "rain_lag1",
+            "rain_3m_mean",
+            "kepadatan_penduduk",
+            "rain_x_density",
+            "bulan"
+        ],
+        "training_accuracy": 0.9471674979879494,
+        "test_accuracy": 0.8061691990642172,
+        "cross_validation_score": 0.8061691990642172,
+        "total_data_points": 2916,
+        "training_period": "2016-2024"
+    },
+    "regional_data": [
+        {
+            "province": "KABUPATEN BOGOR",
+            "total_cases_2023": 3404,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 1942,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN SUKABUMI",
+            "total_cases_2023": 840,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 689,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN CIANJUR",
+            "total_cases_2023": 1934,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 727,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN BANDUNG",
+            "total_cases_2023": 3590,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 2206,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN GARUT",
+            "total_cases_2023": 3268,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 920,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN TASIKMALAYA",
+            "total_cases_2023": 764,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 738,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN CIAMIS",
+            "total_cases_2023": 1421,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 813,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN KUNINGAN",
+            "total_cases_2023": 2164,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 1039,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN CIREBON",
+            "total_cases_2023": 1833,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 2312,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN MAJALENGKA",
+            "total_cases_2023": 1277,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 1030,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN SUMEDANG",
+            "total_cases_2023": 2305,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 783,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN INDRAMAYU",
+            "total_cases_2023": 529,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 954,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN SUBANG",
+            "total_cases_2023": 1930,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 775,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN PURWAKARTA",
+            "total_cases_2023": 1087,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 1071,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN KARAWANG",
+            "total_cases_2023": 3278,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 1365,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN BEKASI",
+            "total_cases_2023": 1902,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 2708,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN BANDUNG BARAT",
+            "total_cases_2023": 3754,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 1489,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KABUPATEN PANGANDARAN",
+            "total_cases_2023": 890,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 396,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KOTA BOGOR",
+            "total_cases_2023": 3116,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 10273,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KOTA SUKABUMI",
+            "total_cases_2023": 1631,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 7660,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KOTA BANDUNG",
+            "total_cases_2023": 7682,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 15557,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KOTA CIREBON",
+            "total_cases_2023": 596,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 9036,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KOTA BEKASI",
+            "total_cases_2023": 4168,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 12074,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KOTA DEPOK",
+            "total_cases_2023": 5041,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 10059,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KOTA CIMAHI",
+            "total_cases_2023": 849,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 13716,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KOTA TASIKMALAYA",
+            "total_cases_2023": 1777,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 4191,
+            "avg_rainfall": 61.35
+        },
+        {
+            "province": "KOTA BANJAR",
+            "total_cases_2023": 400,
+            "dominant_factor": "Kepadatan Penduduk",
+            "factor_importance": 0.6028523230986121,
+            "population_density": 1598,
+            "avg_rainfall": 61.35
+        }
+    ],
+    "factor_summary": {
+        "factors": [
+            {
+                "name": "Kepadatan Penduduk",
+                "avg_importance": 0.6028523230986121,
+                "description": "Jumlah penduduk per km² yang mempengaruhi penyebaran"
+            },
+            {
+                "name": "Interaksi Hujan & Kepadatan",
+                "avg_importance": 0.19439102829774155,
+                "description": "Interaksi antara curah hujan dan kepadatan penduduk"
+            },
+            {
+                "name": "Curah Hujan",
+                "avg_importance": 0.09235165786503506,
+                "description": "Jumlah curah hujan bulanan yang mempengaruhi perkembangbiakan nyamuk"
+            },
+            {
+                "name": "Curah Hujan (Bulan Lalu)",
+                "avg_importance": 0.04914182010751834,
+                "description": "Curah hujan bulan sebelumnya (efek tertunda)"
+            },
+            {
+                "name": "Rata-rata Curah Hujan 3 Bulan",
+                "avg_importance": 0.04248125434420682,
+                "description": "Rata-rata curah hujan dalam 3 bulan terakhir"
+            },
+            {
+                "name": "Musim (Bulan)",
+                "avg_importance": 0.018781916286886042,
+                "description": "Pengaruh musim berdasarkan bulan dalam setahun"
+            }
+        ]
+    }
+}
