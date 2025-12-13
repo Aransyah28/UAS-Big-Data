@@ -1,0 +1,276 @@
+{
+  "series": [
+    {
+      "name": "KABUPATEN BANDUNG",
+      "data": [
+        {
+          "x": 2027.0,
+          "y": 2302,
+          "name": "KABUPATEN BANDUNG"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN BANDUNG BARAT",
+      "data": [
+        {
+          "x": 1311.0,
+          "y": 968,
+          "name": "KABUPATEN BANDUNG BARAT"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN BEKASI",
+      "data": [
+        {
+          "x": 2351.0,
+          "y": 317,
+          "name": "KABUPATEN BEKASI"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN BOGOR",
+      "data": [
+        {
+          "x": 1893.0,
+          "y": 1296,
+          "name": "KABUPATEN BOGOR"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN CIAMIS",
+      "data": [
+        {
+          "x": 891.0,
+          "y": 1456,
+          "name": "KABUPATEN CIAMIS"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN CIANJUR",
+      "data": [
+        {
+          "x": 617.0,
+          "y": 683,
+          "name": "KABUPATEN CIANJUR"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN CIREBON",
+      "data": [
+        {
+          "x": 2333.0,
+          "y": 881,
+          "name": "KABUPATEN CIREBON"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN GARUT",
+      "data": [
+        {
+          "x": 818.0,
+          "y": 649,
+          "name": "KABUPATEN GARUT"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN INDRAMAYU",
+      "data": [
+        {
+          "x": 917.0,
+          "y": 213,
+          "name": "KABUPATEN INDRAMAYU"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN KARAWANG",
+      "data": [
+        {
+          "x": 1429.0,
+          "y": 1330,
+          "name": "KABUPATEN KARAWANG"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN KUNINGAN",
+      "data": [
+        {
+          "x": 1066.0,
+          "y": 364,
+          "name": "KABUPATEN KUNINGAN"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN MAJALENGKA",
+      "data": [
+        {
+          "x": 1092.0,
+          "y": 1153,
+          "name": "KABUPATEN MAJALENGKA"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN PANGANDARAN",
+      "data": [
+        {
+          "x": 424.0,
+          "y": 196,
+          "name": "KABUPATEN PANGANDARAN"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN PURWAKARTA",
+      "data": [
+        {
+          "x": 1180.0,
+          "y": 535,
+          "name": "KABUPATEN PURWAKARTA"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN SUBANG",
+      "data": [
+        {
+          "x": 836.0,
+          "y": 283,
+          "name": "KABUPATEN SUBANG"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN SUKABUMI",
+      "data": [
+        {
+          "x": 634.0,
+          "y": 561,
+          "name": "KABUPATEN SUKABUMI"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN SUMEDANG",
+      "data": [
+        {
+          "x": 764.0,
+          "y": 707,
+          "name": "KABUPATEN SUMEDANG"
+        }
+      ]
+    },
+    {
+      "name": "KABUPATEN TASIKMALAYA",
+      "data": [
+        {
+          "x": 707.0,
+          "y": 179,
+          "name": "KABUPATEN TASIKMALAYA"
+        }
+      ]
+    },
+    {
+      "name": "KOTA BANDUNG",
+      "data": [
+        {
+          "x": 14916.0,
+          "y": 4422,
+          "name": "KOTA BANDUNG"
+        }
+      ]
+    },
+    {
+      "name": "KOTA BANJAR",
+      "data": [
+        {
+          "x": 1811.0,
+          "y": 144,
+          "name": "KOTA BANJAR"
+        }
+      ]
+    },
+    {
+      "name": "KOTA BEKASI",
+      "data": [
+        {
+          "x": 11929.0,
+          "y": 1647,
+          "name": "KOTA BEKASI"
+        }
+      ]
+    },
+    {
+      "name": "KOTA BOGOR",
+      "data": [
+        {
+          "x": 8985.0,
+          "y": 241,
+          "name": "KOTA BOGOR"
+        }
+      ]
+    },
+    {
+      "name": "KOTA CIMAHI",
+      "data": [
+        {
+          "x": 14207.0,
+          "y": 434,
+          "name": "KOTA CIMAHI"
+        }
+      ]
+    },
+    {
+      "name": "KOTA CIREBON",
+      "data": [
+        {
+          "x": 9181.0,
+          "y": 172,
+          "name": "KOTA CIREBON"
+        }
+      ]
+    },
+    {
+      "name": "KOTA DEPOK",
+      "data": [
+        {
+          "x": 9351.0,
+          "y": 1274,
+          "name": "KOTA DEPOK"
+        }
+      ]
+    },
+    {
+      "name": "KOTA SUKABUMI",
+      "data": [
+        {
+          "x": 7284.0,
+          "y": 649,
+          "name": "KOTA SUKABUMI"
+        }
+      ]
+    },
+    {
+      "name": "KOTA TASIKMALAYA",
+      "data": [
+        {
+          "x": 4228.0,
+          "y": 1409,
+          "name": "KOTA TASIKMALAYA"
+        }
+      ]
+    }
+  ],
+  "x_label": "Kepadatan Penduduk (per km²)",
+  "y_label": "Total Kasus Tahunan"
+}

@@ -6,6 +6,8 @@ Projek UAS Big Data semester 5 diimplementasikan peminatan Software Engineering
 ## Deskripsi
 Aplikasi web untuk menampilkan hasil analisis Machine Learning terhadap kasus Demam Berdarah Dengue (DBD) di Jawa Barat. Sistem ini menggunakan data real dari tahun **2016-2024** untuk menganalisis dan memprediksi kasus DBD berdasarkan curah hujan, kepadatan penduduk, dan faktor-faktor lainnya. Aplikasi menampilkan visualisasi interaktif seperti scatter plot, line chart, bar chart, dan pie chart untuk memudahkan pemahaman data.
 
+**Note**: Aplikasi ini sepenuhnya menggunakan data statis (static JSON files) sehingga dapat berjalan tanpa backend server. Semua data telah di-generate sebelumnya dan disimpan sebagai file JSON di frontend.
+
 ## Fitur
 - 📊 Dashboard dengan statistik utama dan ringkasan analisis
 - 📈 Visualisasi data interaktif (Scatter Plot, Line Chart, Bar Chart, Pie Chart, Area Chart)
@@ -17,46 +19,33 @@ Aplikasi web untuk menampilkan hasil analisis Machine Learning terhadap kasus De
 
 ## Teknologi
 
-### Backend
+### Arsitektur
+- **Static Site**: Aplikasi menggunakan arsitektur static site dengan semua data dalam bentuk JSON files
+- **No Backend Required**: Frontend dapat berjalan langsung tanpa perlu backend server
+- **377 Static JSON Files**: Semua endpoint API telah di-konversi menjadi file JSON statis
+
+### Backend (Untuk Generate Data)
 - Python 3.9+
-- FastAPI (Web Framework)
+- FastAPI (Web Framework - untuk development)
 - Pandas (Data Processing)
 - NumPy (Numerical Computing)
 - Scikit-learn (Machine Learning - Random Forest)
-- Uvicorn (ASGI Server)
 
 ### Frontend
 - React 18
 - Vite
 - Recharts (untuk visualisasi)
 - React Router DOM
-- Axios
+- Fetch API (untuk load JSON files)
 
 ## Instalasi dan Menjalankan
 
 ### Akses Demo Online
-Aplikasi frontend tersedia secara online di GitHub Pages:
+Aplikasi tersedia secara online di GitHub Pages (fully static, no backend required):
 - **URL**: [https://aransyah28.github.io/uas-big-data/](https://aransyah28.github.io/uas-big-data/)
-- **Catatan**: Untuk fungsionalitas penuh dengan backend, jalankan backend secara lokal (lihat instruksi di bawah)
+- **Catatan**: Aplikasi berjalan sepenuhnya dengan data statis, tidak memerlukan backend server
 
-### Backend
-
-```bash
-# Masuk ke direktori backend
-cd backend
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Jalankan server
-python main.py
-# atau
-uvicorn main:app --reload --port 8000
-```
-
-Backend akan berjalan di `http://localhost:8000`
-
-### Frontend
+### Frontend (Development)
 
 ```bash
 # Masuk ke direktori frontend
@@ -67,40 +56,72 @@ npm install
 
 # Jalankan development server
 npm run dev
+
+# Build untuk production
+npm run build
 ```
 
 Frontend akan berjalan di `http://localhost:5173`
 
-## API Endpoints
+### Generate Static JSON Files (Opsional)
 
-### Endpoints Analisis ML
-| Endpoint | Deskripsi |
-|----------|-----------|
-| `GET /` | Info API dan data source |
-| `GET /api/monthly-results` | Data hasil ML bulanan (2024) |
-| `GET /api/monthly-results?year={year}` | Data hasil ML untuk tahun tertentu |
-| `GET /api/monthly-results/{month}` | Data hasil ML untuk bulan tertentu |
-| `GET /api/factor-summary` | Ringkasan faktor-faktor dengan importance |
-| `GET /api/model-info` | Informasi model ML (akurasi, fitur, dll) |
-| `GET /api/regional-data` | Data per kabupaten/kota (2024) |
-| `GET /api/regional-data?year={year}` | Data regional untuk tahun tertentu |
-| `GET /api/scatter-plot/{factor}` | Data scatter plot (rainfall/population_density) |
-| `GET /api/statistics` | Statistik keseluruhan |
-| `GET /api/line-chart-data` | Data untuk line chart |
-| `GET /api/bar-chart-data` | Data untuk bar chart |
+Jika ingin regenerate static JSON files dari data CSV:
 
-### Endpoints Data Mentah
-| Endpoint | Deskripsi |
-|----------|-----------|
-| `GET /api/raw-data` | Akses data CSV dengan filter (limit, offset, province, year) |
-| `GET /api/raw-data/summary` | Ringkasan statistik data CSV |
-| `GET /api/available-years` | Daftar tahun yang tersedia (2016-2024) |
-| `GET /api/available-regions` | Daftar kabupaten/kota yang tersedia |
-| `GET /api/scatter-rainfall-by-region?region={nama}` | Scatter plot curah hujan vs kasus per wilayah |
-| `GET /api/scatter-population-all-regions` | Scatter plot kepadatan penduduk vs kasus semua wilayah |
-| `GET /api/notebook-info` | Informasi tentang notebook analisis |
-| `GET /api/download/csv` | Download file CSV |
-| `GET /api/download/notebook` | Download file Jupyter notebook |
+```bash
+# Masuk ke direktori backend
+cd backend
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Generate static JSON files
+python generate_static_json.py
+```
+
+Script ini akan menghasilkan 377 file JSON di direktori `frontend/public/api/` dengan semua data yang diperlukan untuk visualisasi.
+
+## Static JSON API
+
+Semua endpoint backend telah dikonversi menjadi static JSON files yang tersimpan di `frontend/public/api/`. Berikut adalah daftar data yang tersedia:
+
+### Data Utama
+| File | Deskripsi |
+|------|-----------|
+| `index.json` | Info API dan data source |
+| `monthly-results.json` | Data hasil ML bulanan (2024) |
+| `monthly-results-{year}.json` | Data hasil ML untuk tahun tertentu (2016-2024) |
+| `monthly-results-by-month.json` | Data hasil ML per bulan (lookup map) |
+| `factor-summary.json` | Ringkasan faktor-faktor dengan importance |
+| `model-info.json` | Informasi model ML (akurasi, fitur, dll) |
+| `regional-data.json` | Data per kabupaten/kota (2024) |
+| `regional-data-{year}.json` | Data regional untuk tahun tertentu |
+| `statistics.json` | Statistik keseluruhan |
+
+### Data Visualisasi
+| File | Deskripsi |
+|------|-----------|
+| `scatter-plot-{factor}.json` | Data scatter plot (rainfall/population_density) |
+| `scatter-plot-{factor}-{year}.json` | Scatter plot untuk tahun tertentu |
+| `line-chart-data.json` | Data untuk line chart |
+| `line-chart-data-{year}.json` | Line chart untuk tahun tertentu |
+| `bar-chart-data.json` | Data untuk bar chart |
+| `bar-chart-data-{year}.json` | Bar chart untuk tahun tertentu |
+
+### Data Raw & Regional
+| File | Deskripsi |
+|------|-----------|
+| `raw-data-summary.json` | Ringkasan statistik data CSV |
+| `raw-data-year{year}.json` | Data CSV untuk tahun tertentu |
+| `available-years.json` | Daftar tahun yang tersedia (2016-2024) |
+| `available-regions.json` | Daftar kabupaten/kota yang tersedia |
+| `available-regions-year{year}.json` | Daftar region untuk tahun tertentu |
+| `scatter-rainfall-by-region-{region}.json` | Scatter plot curah hujan vs kasus per wilayah |
+| `scatter-rainfall-by-region-{region}-year{year}.json` | Per wilayah dan tahun |
+| `scatter-population-all-regions.json` | Scatter plot kepadatan penduduk vs kasus semua wilayah |
+| `scatter-population-all-regions-year{year}.json` | Per tahun |
+| `notebook-info.json` | Informasi tentang notebook analisis |
+
+Total: **377 static JSON files** mencakup semua data dari tahun 2016-2024 untuk 27 kabupaten/kota di Jawa Barat.
 
 ## Struktur Proyek
 
@@ -110,16 +131,20 @@ uas-big-data/
 │   ├── Kasus_DBD_Gabungan.csv     # Data CSV real (2016-2024, 2916 records)
 │   └── DBD_analysis_final.ipynb   # Jupyter notebook analisis
 ├── backend/
-│   ├── main.py                     # FastAPI application
+│   ├── main.py                     # FastAPI application (legacy)
 │   ├── data_processor.py           # Script untuk memproses CSV & train model
+│   ├── generate_static_json.py     # Script untuk generate static JSON files
 │   ├── requirements.txt            # Python dependencies
 │   └── data/
 │       └── dbd_ml_results.json    # Hasil analisis ML (generated)
 ├── frontend/
+│   ├── public/
+│   │   └── api/                    # 377 static JSON files
 │   ├── src/
 │   │   ├── components/             # Komponen React
 │   │   ├── pages/                  # Halaman aplikasi
-│   │   ├── services/               # API service
+│   │   ├── services/
+│   │   │   └── api.js              # API service (fetch static JSON)
 │   │   ├── App.jsx                 # Main app component
 │   │   └── App.css                 # Styling
 │   ├── package.json
@@ -159,15 +184,23 @@ uas-big-data/
 ## Deployment
 
 ### GitHub Pages
-Aplikasi frontend secara otomatis di-deploy ke GitHub Pages menggunakan GitHub Actions.
+Aplikasi frontend secara otomatis di-deploy ke GitHub Pages menggunakan GitHub Actions sebagai **fully static site** (tanpa backend).
 
 **Setup Awal** (sudah dikonfigurasi):
 1. Repository sudah dikonfigurasi dengan GitHub Actions workflow
-2. Untuk mengaktifkan, buka Settings → Pages
-3. Set Source ke "GitHub Actions"
-4. Setiap push ke branch `main` akan otomatis deploy
+2. Static JSON files sudah di-generate dan disimpan di `frontend/public/api/`
+3. Untuk mengaktifkan, buka Settings → Pages
+4. Set Source ke "GitHub Actions"
+5. Setiap push ke branch `main` akan otomatis deploy
 
 **URL Live**: [https://aransyah28.github.io/uas-big-data/](https://aransyah28.github.io/uas-big-data/)
+
+**Keuntungan Arsitektur Static**:
+- ✅ Tidak perlu deploy atau maintain backend server
+- ✅ Hosting gratis di GitHub Pages
+- ✅ Fast loading time (CDN)
+- ✅ Lebih aman (no server-side code)
+- ✅ Mudah di-maintain dan update
 
 Untuk detail lengkap setup dan troubleshooting, lihat [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md)
 

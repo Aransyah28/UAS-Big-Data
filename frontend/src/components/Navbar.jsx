@@ -10,13 +10,13 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/">
+        <Link to="/uas-big-data/">
           <h1>🦟 DBD Analytics</h1>
         </Link>
       </div>
       <ul className="navbar-menu">
-        <li className={isActive('/')}>
-          <Link to="/">Dashboard</Link>
+        <li className={isActive('/uas-big-data/')}>
+          <Link to="/uas-big-data/">Dashboard</Link>
         </li>
         <li className={isActive('/monthly')}>
           <Link to="/monthly">Data Bulanan</Link>

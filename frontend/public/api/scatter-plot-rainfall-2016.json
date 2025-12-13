@@ -1,0 +1,46 @@
+{
+  "x": [
+    63.08,
+    64.35,
+    70.8,
+    75.5,
+    77.2,
+    77.95,
+    81.4,
+    86.25,
+    92.0,
+    102.61,
+    102.7,
+    112.9
+  ],
+  "y": [
+    2336,
+    2386,
+    2622,
+    2795,
+    2859,
+    2887,
+    3014,
+    3194,
+    3407,
+    3799,
+    3803,
+    4182
+  ],
+  "labels": [
+    "Desember",
+    "Juni",
+    "Januari",
+    "April",
+    "Februari",
+    "Mei",
+    "Maret",
+    "Oktober",
+    "Agustus",
+    "November",
+    "Juli",
+    "September"
+  ],
+  "x_label": "Curah Hujan (mm)",
+  "y_label": "Kasus Bulanan"
+}

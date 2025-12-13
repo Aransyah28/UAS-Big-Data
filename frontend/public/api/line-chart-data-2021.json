@@ -1,0 +1,46 @@
+{
+  "labels": [
+    "Januari",
+    "Februari",
+    "Maret",
+    "April",
+    "Mei",
+    "Juni",
+    "Juli",
+    "Agustus",
+    "September",
+    "Oktober",
+    "November",
+    "Desember"
+  ],
+  "datasets": {
+    "total_cases": [
+      2073,
+      2016,
+      1534,
+      1383,
+      1532,
+      2400,
+      1673,
+      1328,
+      2887,
+      2031,
+      2407,
+      2188
+    ],
+    "rainfall": [
+      73.19,
+      71.18,
+      54.18,
+      48.78,
+      54.11,
+      84.71,
+      59.1,
+      46.92,
+      101.89,
+      71.7,
+      85.05,
+      77.28
+    ]
+  }
+}

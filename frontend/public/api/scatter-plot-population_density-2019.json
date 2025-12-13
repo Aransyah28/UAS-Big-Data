@@ -1,0 +1,46 @@
+{
+  "x": [
+    3771,
+    3771,
+    3771,
+    3771,
+    3771,
+    3771,
+    3771,
+    3771,
+    3771,
+    3771,
+    3771,
+    3771
+  ],
+  "y": [
+    3108,
+    3877,
+    4087,
+    4319,
+    2487,
+    817,
+    392,
+    98,
+    60,
+    86,
+    2840,
+    3116
+  ],
+  "labels": [
+    "Januari",
+    "Februari",
+    "Maret",
+    "April",
+    "Mei",
+    "Juni",
+    "Juli",
+    "Agustus",
+    "September",
+    "Oktober",
+    "November",
+    "Desember"
+  ],
+  "x_label": "Kepadatan Penduduk (per km²)",
+  "y_label": "Kasus Bulanan"
+}

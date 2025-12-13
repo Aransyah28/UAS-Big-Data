@@ -1,0 +1,23 @@
+{
+  "message": "Selamat datang di API Analisis ML Kasus DBD Indonesia",
+  "version": "1.0.0",
+  "description": "API ini menyediakan akses ke data DBD dan hasil analisis Machine Learning",
+  "data_source": {
+    "csv": "Kasus_DBD_Gabungan.csv",
+    "notebook": "DBD_analysis_final.ipynb",
+    "years_covered": "2016-2024"
+  },
+  "endpoints": [
+    "/api/monthly-results",
+    "/api/factor-summary",
+    "/api/model-info",
+    "/api/regional-data",
+    "/api/scatter-plot/{factor}",
+    "/api/statistics",
+    "/api/raw-data",
+    "/api/raw-data/summary",
+    "/api/notebook-info",
+    "/api/download/csv",
+    "/api/download/notebook"
+  ]
+}

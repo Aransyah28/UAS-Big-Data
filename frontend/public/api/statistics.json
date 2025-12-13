@@ -1,0 +1,19 @@
+{
+  "total_cases_2023": 61430,
+  "average_monthly_cases": 5119.17,
+  "highest_month": {
+    "month": "Juni",
+    "cases": 9091,
+    "dominant_factor": "Kepadatan Penduduk"
+  },
+  "lowest_month": {
+    "month": "Agustus",
+    "cases": 1541,
+    "dominant_factor": "Kepadatan Penduduk"
+  },
+  "dominant_factor_frequency": {
+    "Kepadatan Penduduk": 12
+  },
+  "average_prediction_accuracy": 0.7967,
+  "model_type": "Random Forest Regressor"
+}

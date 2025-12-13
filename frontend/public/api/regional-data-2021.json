@@ -1,0 +1,218 @@
+[
+  {
+    "province": "KABUPATEN BOGOR",
+    "total_cases_2023": 2219,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 1965,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN SUKABUMI",
+    "total_cases_2023": 271,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 653,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN CIANJUR",
+    "total_cases_2023": 429,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 635,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN BANDUNG",
+    "total_cases_2023": 2025,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 2055,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN GARUT",
+    "total_cases_2023": 1010,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 855,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN TASIKMALAYA",
+    "total_cases_2023": 47,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 731,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN CIAMIS",
+    "total_cases_2023": 472,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 893,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN KUNINGAN",
+    "total_cases_2023": 546,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 1079,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN CIREBON",
+    "total_cases_2023": 818,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 2402,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN MAJALENGKA",
+    "total_cases_2023": 447,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 1099,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN SUMEDANG",
+    "total_cases_2023": 1265,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 767,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN INDRAMAYU",
+    "total_cases_2023": 187,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 924,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN SUBANG",
+    "total_cases_2023": 286,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 843,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN PURWAKARTA",
+    "total_cases_2023": 220,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 1213,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN KARAWANG",
+    "total_cases_2023": 929,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 1457,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN BEKASI",
+    "total_cases_2023": 371,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 2468,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN BANDUNG BARAT",
+    "total_cases_2023": 419,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 1364,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KABUPATEN PANGANDARAN",
+    "total_cases_2023": 79,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 428,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KOTA BOGOR",
+    "total_cases_2023": 526,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 9210,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KOTA SUKABUMI",
+    "total_cases_2023": 448,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 7329,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KOTA BANDUNG",
+    "total_cases_2023": 3743,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 15076,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KOTA CIREBON",
+    "total_cases_2023": 165,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 9199,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KOTA BEKASI",
+    "total_cases_2023": 1845,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 11947,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KOTA DEPOK",
+    "total_cases_2023": 3154,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 9453,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KOTA CIMAHI",
+    "total_cases_2023": 591,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 14279,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KOTA TASIKMALAYA",
+    "total_cases_2023": 909,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 4263,
+    "avg_rainfall": 69.01
+  },
+  {
+    "province": "KOTA BANJAR",
+    "total_cases_2023": 31,
+    "dominant_factor": "Kepadatan Penduduk",
+    "factor_importance": 0.6028523230986121,
+    "population_density": 1570,
+    "avg_rainfall": 69.01
+  }
+]

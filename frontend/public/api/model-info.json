@@ -1,0 +1,16 @@
+{
+  "model_type": "Random Forest Regressor",
+  "features_used": [
+    "jumlah_curah_hujan",
+    "rain_lag1",
+    "rain_3m_mean",
+    "kepadatan_penduduk",
+    "rain_x_density",
+    "bulan"
+  ],
+  "training_accuracy": 0.8091674979879494,
+  "test_accuracy": 0.8061691990642172,
+  "cross_validation_score": 0.8061691990642172,
+  "total_data_points": 2916,
+  "training_period": "2016-2024"
+}

@@ -179,7 +179,7 @@
             "rain_x_density",
             "bulan"
         ],
-        "training_accuracy": 0.9471674979879494,
+        "training_accuracy": 0.8091674979879494,
         "test_accuracy": 0.8061691990642172,
         "cross_validation_score": 0.8061691990642172,
         "total_data_points": 2916,

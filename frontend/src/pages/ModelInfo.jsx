@@ -117,8 +117,7 @@ function ModelInfo() {
           <h4>Pengumpulan Data</h4>
           <p>
             Data dikumpulkan dari berbagai sumber termasuk Kementerian Kesehatan RI, BMKG, dan BPS
-            untuk periode 2018-2023. Data mencakup jumlah kasus DBD, variabel cuaca (suhu, kelembaban,
-            curah hujan), dan faktor demografis (kepadatan penduduk, indeks sanitasi, akses kesehatan).
+            untuk periode 2016-2024. Data mencakup jumlah kasus DBD, variabel cuaca (curah hujan), dan faktor demografis (kepadatan penduduk).
           </p>
 
           <h4>Preprocessing Data</h4>

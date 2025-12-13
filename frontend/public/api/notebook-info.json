@@ -1,0 +1,33 @@
+{
+  "notebook_name": "DBD_analysis_final.ipynb",
+  "description": "Analisis Machine Learning untuk kasus Demam Berdarah Dengue (DBD) di Indonesia",
+  "cells": {
+    "total": 13,
+    "code": 13,
+    "markdown": 0
+  },
+  "analysis_steps": [
+    "Data Loading & Preprocessing",
+    "Feature Engineering (lag features, rolling means)",
+    "Feature Selection (Mutual Information, RFE, Wrapper Methods)",
+    "Model Training (Random Forest Regressor)",
+    "Feature Importance Analysis",
+    "Model Evaluation"
+  ],
+  "libraries_used": [
+    "import pandas as pd",
+    "import numpy as np",
+    "import matplotlib.pyplot as plt",
+    "from sklearn.feature_selection import mutual_info_regression, RFE",
+    "from sklearn.ensemble import RandomForestRegressor",
+    "from sklearn.linear_model import LassoCV, LinearRegression, Ridge",
+    "from sklearn.tree import DecisionTreeRegressor, export_text",
+    "from sklearn.model_selection import train_test_split",
+    "from sklearn.metrics import mean_squared_error, r2_score",
+    "from sklearn.preprocessing import StandardScaler"
+  ],
+  "model": {
+    "type": "Random Forest Regressor",
+    "purpose": "Prediksi kasus DBD berdasarkan curah hujan, kepadatan penduduk, dan faktor lainnya"
+  }
+}

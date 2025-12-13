@@ -1,88 +1,113 @@
-import axios from 'axios';
+/**
+ * API Service for fetching static JSON data
+ * All backend endpoints have been converted to static JSON files
+ * stored in /public/api directory
+ */
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+// Base path for static JSON files (relative to public directory)
+const getBasePath = () => {
+  // In production (GitHub Pages), use the repository name as base path
+  const base = import.meta.env.BASE_URL || '/';
+  return `${base}api/`;
+};
 
-const api = axios.create({
-  baseURL: API_BASE_URL,
-  timeout: 10000,
-  headers: {
-    'Content-Type': 'application/json',
-  },
-});
+/**
+ * Fetch JSON file from the public/api directory
+ */
+const fetchJSON = async (filename) => {
+  const url = `${getBasePath()}${filename}`;
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`Failed to fetch ${filename}: ${response.statusText}`);
+  }
+  return response.json();
+};
 
 export const getMonthlyResults = async (year = null) => {
-  const params = year ? { year } : {};
-  const response = await api.get('/api/monthly-results', { params });
-  return response.data;
+  const filename = year ? `monthly-results-${year}.json` : 'monthly-results.json';
+  return fetchJSON(filename);
 };
 
 export const getMonthlyResultByMonth = async (month) => {
-  const response = await api.get(`/api/monthly-results/${month}`);
-  return response.data;
+  // Fetch all monthly results and filter by month
+  const data = await fetchJSON('monthly-results-by-month.json');
+  const monthKey = month.toLowerCase();
+  if (data[monthKey]) {
+    return data[monthKey];
+  }
+  throw new Error(`Data for month '${month}' not found`);
 };
 
 export const getFactorSummary = async () => {
-  const response = await api.get('/api/factor-summary');
-  return response.data;
+  return fetchJSON('factor-summary.json');
 };
 
 export const getModelInfo = async () => {
-  const response = await api.get('/api/model-info');
-  return response.data;
+  return fetchJSON('model-info.json');
 };
 
 export const getRegionalData = async (year = null) => {
-  const params = year ? { year } : {};
-  const response = await api.get('/api/regional-data', { params });
-  return response.data;
+  const filename = year ? `regional-data-${year}.json` : 'regional-data.json';
+  return fetchJSON(filename);
 };
 
 export const getScatterPlotData = async (factor, year = null) => {
-  const params = year ? { year } : {};
-  const response = await api.get(`/api/scatter-plot/${factor}`, { params });
-  return response.data;
+  const filename = year ? `scatter-plot-${factor}-${year}.json` : `scatter-plot-${factor}.json`;
+  return fetchJSON(filename);
 };
 
 export const getStatistics = async () => {
-  const response = await api.get('/api/statistics');
-  return response.data;
+  return fetchJSON('statistics.json');
 };
 
 export const getLineChartData = async (year = null) => {
-  const params = year ? { year } : {};
-  const response = await api.get('/api/line-chart-data', { params });
-  return response.data;
+  const filename = year ? `line-chart-data-${year}.json` : 'line-chart-data.json';
+  return fetchJSON(filename);
 };
 
 export const getBarChartData = async (year = null) => {
-  const params = year ? { year } : {};
-  const response = await api.get('/api/bar-chart-data', { params });
-  return response.data;
+  const filename = year ? `bar-chart-data-${year}.json` : 'bar-chart-data.json';
+  return fetchJSON(filename);
 };
 
 export const getAvailableYears = async () => {
-  const response = await api.get('/api/available-years');
-  return response.data;
+  return fetchJSON('available-years.json');
 };
 
 export const getAvailableRegions = async (year = null) => {
-  const params = year ? { year } : {};
-  const response = await api.get('/api/available-regions', { params });
-  return response.data;
+  const filename = year ? `available-regions-year${year}.json` : 'available-regions.json';
+  return fetchJSON(filename);
 };
 
 export const getRainfallScatterByRegion = async (region, year = null) => {
-  const params = year ? { year } : {};
-  const response = await api.get('/api/scatter-rainfall-by-region', { 
-    params: { ...params, region } 
-  });
-  return response.data;
+  // Sanitize region name for filename (same as backend)
+  const regionFilename = region.replace(/ /g, '-').replace(/\//g, '-');
+  const filename = year 
+    ? `scatter-rainfall-by-region-${regionFilename}-year${year}.json`
+    : `scatter-rainfall-by-region-${regionFilename}.json`;
+  return fetchJSON(filename);
 };
 
 export const getPopulationScatterAllRegions = async (year = null) => {
-  const params = year ? { year } : {};
-  const response = await api.get('/api/scatter-population-all-regions', { params });
-  return response.data;
+  const filename = year 
+    ? `scatter-population-all-regions-year${year}.json`
+    : 'scatter-population-all-regions.json';
+  return fetchJSON(filename);
 };
 
-export default api;
+// For backward compatibility, export a default object (not used anymore)
+export default {
+  getMonthlyResults,
+  getMonthlyResultByMonth,
+  getFactorSummary,
+  getModelInfo,
+  getRegionalData,
+  getScatterPlotData,
+  getStatistics,
+  getLineChartData,
+  getBarChartData,
+  getAvailableYears,
+  getAvailableRegions,
+  getRainfallScatterByRegion,
+  getPopulationScatterAllRegions,
+};

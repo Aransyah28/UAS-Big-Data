@@ -163,11 +163,11 @@ function Dashboard() {
         <h3>📋 Ringkasan Analisis</h3>
         <ul>
           <li>
-            <strong>Faktor dominan:</strong> Curah Hujan mempengaruhi kasus DBD terutama pada musim hujan
-            (November-Maret)
+            <strong>Faktor dominan:</strong> Kepadatan penduduk yang tinggi memiliki pengaruh terbesar terhadap
+            peningkatan kasus DBD ditambah dengan curah hujan yang tinggi juga berkontribusi signifikan
           </li>
           <li>
-            <strong>Pola musiman:</strong> Kasus tertinggi terjadi di bulan Maret saat curah hujan mencapai
+            <strong>Pola musiman:</strong> Kasus tertinggi terjadi di bulan Juni saat curah hujan mencapai
             puncaknya
           </li>
           <li>
